@@ -1,45 +1,26 @@
 # Public Health Study with Python
 
+## Overview
 This project is an introductory exploration of Python, focusing on public health data analysis. It includes significant preprocessing steps to ensure data cleanliness and GDPR compliance.
 
+## Notebooks 📓
+- [Main Analysis Notebook](https://github.com/Melchmanu/Public-Health-Study-with-Python/blob/main/Melchiori_Manuel_1_notebook_052024.ipynb)
+
 ## Project Structure
+The main steps of the project include:
+- **Data Preprocessing:** Cleaning and organizing raw data to ensure high quality.
+- **Relational Algebra Operations:** Performing joins, applying restrictions using `.loc` and column selections, and aggregating data.
+- **GDPR Compliance:** Anonymizing data to protect personal information and ensuring compliance with GDPR regulations.
 
-- **Melchiori_Manuel_1_notebook_052024.ipynb**: The main Jupyter Notebook containing the code and analysis for the project.
-- **Lexique des données.pdf**: A lexicon of the data used, providing definitions and explanations of the dataset variables.
-- **Melchiori_Manuel_3_presentation_052024.pdf**: A presentation summarizing the project's findings and methodology.
-
-## Project Objectives
-
-1. **Code Cleanliness and Organization**:
-    - Ensuring well-structured and readable code.
-    - Following best practices in Python programming.
-
-2. **Relational Algebra Operations**:
-    - Performing joins to combine data from multiple sources.
-    - Applying restrictions using `.loc` and column selections.
-    - Aggregating data for meaningful insights.
-
-3. **GDPR Compliance**:
-    - Anonymizing data to protect personal information.
-    - Ensuring that all preprocessing steps comply with GDPR regulations.
-
-## Key Steps and Methods
-
-- **Data Preprocessing**: 
-    - Cleaning and organizing raw data.
-    - Handling missing values and outliers.
-
-- **Relational Algebra Operations**: 
-    - Merging datasets using joins.
-    - Filtering and selecting relevant data.
-
-- **Data Aggregation**: 
-    - Grouping data to generate summary statistics.
-    - Visualizing aggregated data for better interpretation.
+## Files
+- `notebooks/` : Contains the Jupyter Notebook for the analysis.
+  - [Main Analysis Notebook](https://github.com/Melchmanu/Public-Health-Study-with-Python/blob/main/Melchiori_Manuel_1_notebook_052024.ipynb)
+- `documents/` : Includes supplementary documentation.
+  - [`Lexique des données.pdf`](https://github.com/Melchmanu/Public-Health-Study-with-Python/blob/main/Lexique%20des%20données.pdf)
+  - [`Melchiori_Manuel_3_presentation_052024.pdf`](https://github.com/Melchmanu/Public-Health-Study-with-Python/blob/main/Melchiori_Manuel_3_presentation_052024.pdf)
 
 ## How to Use
-
-1. Clone the repository:
+1. Clone the repository to your local machine:
     ```bash
     git clone https://github.com/Melchmanu/Public-Health-Study-with-Python.git
     ```
@@ -49,16 +30,25 @@ This project is an introductory exploration of Python, focusing on public health
     cd Public-Health-Study-with-Python
     ```
 
-3. Open the Jupyter Notebook:
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Open and run the Jupyter Notebook:
     ```bash
     jupyter notebook Melchiori_Manuel_1_notebook_052024.ipynb
     ```
 
-## Conclusion
+## Key Features
+- **Comprehensive Data Preprocessing:** Ensuring data is clean, organized, and ready for analysis.
+- **Relational Algebra Operations:** Efficient data manipulation through joins, restrictions, and aggregations.
+- **GDPR Compliance:** Protecting personal information and ensuring legal compliance.
 
-This project serves as a comprehensive introduction to Python for data analysis, with a focus on public health data. It highlights the importance of clean code, efficient data manipulation, and adherence to data privacy regulations.
-
-Feel free to explore the code and provide feedback!
+## Future Improvements
+- **Integrate Additional Data Sources:** Enhance the analysis by incorporating more diverse datasets.
+- **Advanced Data Analysis:** Develop more complex models and analytical techniques.
+- **Improved Visualizations:** Create more insightful and interactive data visualizations.
 
 ---
 
