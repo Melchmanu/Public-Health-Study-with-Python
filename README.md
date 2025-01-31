@@ -16,7 +16,6 @@ The main steps of the project include:
 - `notebooks/` : Contains the Jupyter Notebook for the analysis.
   - [Main Analysis Notebook](https://github.com/Melchmanu/Public-Health-Study-with-Python/blob/main/Melchiori_Manuel_1_notebook_052024.ipynb)
 - `documents/` : Includes supplementary documentation.
-  - [`Lexique des données.pdf`](https://github.com/Melchmanu/Public-Health-Study-with-Python/blob/main/Lexique%20des%20données.pdf)
   - [`Melchiori_Manuel_3_presentation_052024.pdf`](https://github.com/Melchmanu/Public-Health-Study-with-Python/blob/main/Melchiori_Manuel_3_presentation_052024.pdf)
 
 ## How to Use
